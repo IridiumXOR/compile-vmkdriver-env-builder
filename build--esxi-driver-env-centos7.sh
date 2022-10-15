@@ -24,7 +24,7 @@ cd binutils-2.22
 cd ..
 
 cd gcc-4.8.0
-wget https://ftp.gnu.org/gnu/gcc/gcc-4.8.0/gcc-4.8.0.tar.gz
+wget --no-check-certificate https://ftp.gnu.org/gnu/gcc/gcc-4.8.0/gcc-4.8.0.tar.gz
 ./install.sh
 cd ..
 
